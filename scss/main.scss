@@ -1,3 +1,174 @@
-p {
-    color: green;
+/* Add some padding on document's body to prevent the content
+    to go underneath the header and footer */
+
+body {
+  margin-left: 0;
+}
+
+/*Utility class*/
+
+.disp-inline {
+  display: inline;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.wt100 {
+  width: 100%;
+}
+
+.logo {
+  width: 150px;
+}
+
+.hide-xs, .hide-md, .hide-lg {
+  display: none;
+}
+
+.container {
+  width: 90%;
+  margin: 0 5%;
+}
+
+.fixed-header {
+  width: 100%;
+  padding: 0;
+  color: #fff;
+  top: 0;
+}
+
+/* Some more styles to beutify this example */
+
+nav a {
+  color: #333;
+  text-decoration: none;
+  padding: 7px 0px;
+  display: inline-block;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+}
+
+td, th {
+  padding: 8px;
+  color: #333;
+  text-align: left;
+}
+
+tr:hover {
+  background-color: #ddd;
+}
+
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #f3f3f2;
+}
+
+.border-bottom {
+  border-bottom: 1px solid  #ddd;
+}
+
+.img-view {
+  width: 200px;
+  margin: 0 auto;
+  display: block;
+  max-width: 100%;
+  vertical-align: middle;
+  float: left;
+}
+
+.text-center {
+  text-align: center;
+}
+
+h2, h3 {
+  font-weight: 300;
+  font-family: Arial;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+
+.column {
+  float: left;
+  padding: 5px 10px;
+  p {
+    margin: 0;
+  }
+  > span {
+    font-size: 12px;
+    color: #acacac;
+  }
+}
+
+.font-weight-bold {
+  font-weight: 600;
+}
+
+/* Style the buttons */
+
+.btn {
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  background-color: #f4bc41;
+  cursor: pointer;
+  margin-bottom: 15px;
+  color: #fff;
+  width: 100%;
+  text-align: center;
+}
+
+.column {
+  width: 100% !important;
+}
+
+@media screen and (min-width: 678px) and (max-width: 1024px) {
+  .column {
+    width: 100% !important;
+  }
+  .border-all {
+    border: 1px solid  #ddd;
+  }
+  .hide-xs {
+    display: block !important;
+  }
+  .disp-inline-phone {
+    display: inline !important;
+    margin-left: 10px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .column {
+    width: 100% !important;
+  }
+  .border-all {
+    border: 1px solid  #ddd;
+  }
+  .hide-xs {
+    display: block !important;
+  }
+  #download {
+    width: auto !important;
+    float: right;
+  }
+  .disp-inline-phone {
+    display: inline !important;
+    margin-left: 10px;
+  }
 }
