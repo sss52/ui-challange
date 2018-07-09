@@ -18,6 +18,6 @@ This repo uses [parceljs](https://parceljs.org/) and contains support for [SCSS]
 - You are free to use any framework/pre-processor.
 - Use icons/assets wherever required.
 
-This repo uses [parceljs](https://parceljs.org/) and contains support for [SCSS](https://sass-lang.com/)
+Following changes are used from my end
 - Fontawesome for free icon (https://fontawesome.com/v4.7.0/icons/)
 - for responsive used media query.
